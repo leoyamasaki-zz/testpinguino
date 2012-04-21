@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+<TextView
+	android:id="@+id/Tittle"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/ServerMsg"
+    />
+
+<Button
+    android:id="@+id/Stop"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:text="@string/Stop" >
+
+</Button>
+
+<Button
+    android:id="@+id/Forward"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Forward" >
+</Button>
+
+<Button
+    android:id="@+id/Backward"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Backward" >
+</Button>
+
+<Button
+    android:id="@+id/Left"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Left" >
+</Button>
+
+<Button
+    android:id="@+id/Right"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Right" >
+</Button>
+
+<Button
+    android:id="@+id/Connect"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/StartServer" >
+</Button>
+
+<Button
+    android:id="@+id/DisConnect"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/StopServer" >
+</Button>
+
+</LinearLayout>
